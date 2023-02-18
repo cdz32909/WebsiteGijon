@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" href="Estilos/formulario.css">
+</head>
+<body>
+    <header>
+        <h1>Formulario </h1>
+    </header>
+    
+    <div id="barra">
+        <ul class="nav">
+            <li><a href="./inicio.html">Inicio</a></li>
+            <li><a href="./gijon.html">Gijón</a></li>
+            <li><a href="./laboral.html">Universidad Laboral</a></li>
+            <li><a href="./formulario.html">Formulario</a></li>
+        </ul>
+    </div>
+    
+    <form action="">
+        <h2>Formulario</h2>
+        <fieldset>
+            <legend>Datos personales</legend>
+
+            <label for="nom">Nombre:</label>
+            <input type="text" name="nom" placeholder="Escribe tu nombre"/><br>
+            
+            <label for="nom">NIF:</label>
+            <input type="text" name="lnom" placeholder="11223344-L"/><br>
+
+            <label for="">Email:</label>
+            <input type="email" name="email" placeholder="correo@empresa.com">
+        </fieldset>
+        <fieldset>
+            <legend>Preguntas</legend>
+            <label for="">Vives en Gijón?</label>
+            <input type="radio">Si
+            <input type="radio">No <br>
+
+            <label for="">Visitaste la Universidad Laboral?</label>
+            <input type="radio">Si
+            <input type="radio">No <br>
+        </fieldset>
+        <fieldset>
+            <legend>Danos tu opinión</legend>
+            <label for="">Asunto:</label>
+            <input type="text"><br>
+
+            <label for="">Mensaje:</label><br>
+            <textarea name="mens" id="mens" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea><br>
+        </fieldset>
+
+        <input type="checkbox" name="pol" value="aceptada" id=""><b>He leido y acepto el <a href="#">aviso legal y la politica de privacidad.</a></b><br>
+        
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    </form>
+    
+    <footer>
+        <p>Laura Álvarez Luque</p>
+    </footer>
+</body>
+</html>
