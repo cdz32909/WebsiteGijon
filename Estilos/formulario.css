@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(206, 221, 248);
+}
+header{
+    font-family:Arial, Helvetica, sans-serif;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    background-image: url(/Imagenes/formulario/foto.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 500px;
+    position: relative;
+    left: 28%;
+}
+h1{
+    color: white;
+}
+#barra {
+    margin:auto;
+    width:500px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+ul, ol {
+    list-style:none;
+}
+.nav > li {
+    float:left;
+}
+.nav li a {
+    background-color:#000;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+h2,label{
+    color:#384dad;
+}
+form{
+    border-style: solid;
+    border-color: #384dad;
+    width: 350px;
+    padding: 10px;
+    position: absolute;
+    left: 33.5%;
+    top: 60%;
+    margin-bottom: 10%;
+}
+fieldset{
+    margin-bottom: 5%;
+}
+input[type=text], input[type=email], textarea{
+    width: 80%;
+    padding: 5px 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+input[type=submit], input[type=reset]{
+    background-color: #384dad;
+    border: 5;
+    border-color: white;
+    color: white;
+    padding: 5px 10px;
+}
+footer{
+    position: absolute;
+    right: 5%;
+    margin-top: 80%;
+}
